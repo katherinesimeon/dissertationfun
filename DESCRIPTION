@@ -6,7 +6,7 @@ Authors@R:
            family = "Simeon",
            role = c("aut", "cre"),
            email = "ksimeon@u.northwestern.edu")
-Description: A package of fun dissertation-related functions for data cleaning, documentation, and analysis. Uses functions from plyr, dplyr (I usually load the tidyverse when working with my data). This package is intended for personal/internal use for my specific disseration project, affectionately named [fʌn.nɔlɛdʒi].
+Description: A package of fun dissertation-related functions for data cleaning, documentation, and analysis. Uses functions from plyr, dplyr (I usually load the tidyverse when working with my data). This package is intended for personal/internal use for my specific dissertation project, affectionately named [fʌn.nɔlɛdʒi].
 License: MIT
 Encoding: UTF-8
 LazyData: true
