@@ -1,0 +1,14 @@
+Package: dissertationfun
+Title: What the Package Does (One Line, Title Case)
+Version: 1.0.0.000
+Authors@R: 
+    person(given = "Katherine",
+           family = "Simeon",
+           role = c("aut", "cre"),
+           email = "ksimeon@u.northwestern.edu")
+Description: A package of fun dissertation-related functions for data cleaning, documentation, and analysis. Uses functions from plyr, dplyr (I usually load the tidyverse when working with my data). This package is intended for personal/internal use for my specific disseration project, affectionately named [fʌn.nɔlɛdʒi].
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Import: plyr, dplyr, tidyr
+RoxygenNote: 6.1.1
