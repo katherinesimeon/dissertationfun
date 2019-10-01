@@ -39,7 +39,7 @@ longLWL <- function(filename,experiment) {
     FUNK_long <- gather(FUNK_clean,key="Timebin",value="Fixation",
                         -Subject,-Months,-Sex,-Order,
                         -Trial,-Prescreen.Notes,-L.image,-C.Image,-R.image,-Target.Side,-Target.Image,
-                        -Condition,-Response,-First.Shift.Gap,-RT,-CritOnSet,-CritOffSet,-GoodLooks,-audio,
+                        -Condition,-Response,-First.Shift.Gap,-RT,-CritOnSet,-CritOffSet,-GoodLooks,
                         -competitor,-RT_psychopy,-Accuracy,-Experiment,-Group)
   } else {
     print("Error: experiment value must be numeric 1 or 2")
@@ -57,7 +57,6 @@ longLWL <- function(filename,experiment) {
   FUNK_long$L.image <- sub(".jpg", "", FUNK_long$L.image)
   FUNK_long$R.image <- sub(".jpg", "", FUNK_long$R.image)
 
-  LWL_long <<- FUNK_long
-  head(FUNK_long)
+  FUNK_long
 }
 
